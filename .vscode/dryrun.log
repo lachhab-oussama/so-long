@@ -1,0 +1,12 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/olachhab/Desktop/so_long'
+cc -Wall -Wextra -Werror -c key_hooks.c -o key_hooks.o
+cc -Wall -Wextra -Werror -c prepare_map.c -o prepare_map.o
+cc -Wall -Wextra -Werror -c so_long.c -o so_long.o
+cc -Wall -Wextra -Werror -c get_next_line_utils.c -o get_next_line_utils.o
+cc -Wall -Wextra -Werror -c get_next_line.c -o get_next_line.o
+make: Leaving directory '/home/olachhab/Desktop/so_long'
+ 
+make: *** No rule to make target 'put_background.o', needed by 'so_long'.
+make: *** No rule to make target 'wall_img.o', needed by 'so_long'.
+
